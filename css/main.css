@@ -16,20 +16,22 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: calc(50% - 550px);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 70px;
     /* background-color: grey; */
 }
 .column {
     width: 20%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* background-color: yellow; */
 }
 
 .picture {
     /* background-color: aquamarine; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 200px;
+    display: flex;
+    justify-content: center;
 }
 .logo {
     width: 75%;
@@ -38,18 +40,16 @@ body {
 }
 
 .color1 {
-    background-color: ;
-
+    background-color: rgb(243, 243, 130);
 }
 .color2 {
-    background-color: ;
-    
+    background-color: rgb(190, 190, 221); 
 }
 .color3 {
-    
+    background-color: rgb(158, 228, 158);
 }
 .color4 {
-    
+    background-color: rgb(236, 166, 180);   
 }
 
 .main-title {
@@ -57,10 +57,72 @@ body {
     color: #e15e4e;
     text-transform: uppercase;
     text-align:center;
-    padding-top: 15px;
+    /* padding-top: 15px; */
      
 }
 .main-description {
     padding: 10px;
+    text-align: center;
     
 }
+
+.circle1 {
+    background-color: black;
+    display: inline-block;
+    border-radius: 1.5em;
+    border: 0.2em solid rgb(243, 243, 130); ;
+    width: 40px;
+    height: 40px;
+    position:relative;
+    left: -15px;
+    top: -218px;
+    color: rgb(243, 243, 130);
+    font-size: 20px;
+    text-align: center;  
+}
+
+.circle2 {
+    background-color:black;
+    display: inline-block;
+    border-radius: 1.5em;
+    border: 0.2em solid rgb(190, 190, 221);
+    width: 40px;
+    height: 40px;
+    position:relative;
+    left: -15px;
+    top: -218px;
+    color: rgb(190, 190, 221);
+    font-size: 20px;
+    text-align: center;  
+}
+
+.circle3 {
+    background-color:black;
+    display: inline-block;
+    border-radius: 1.5em;
+    border: 0.2em solid rgb(158, 228, 158);
+    width: 40px;
+    height: 40px;
+    position:relative;
+    left: -15px;
+    top: -218px;
+    color:rgb(158, 228, 158);
+    font-size: 20px;
+    text-align: center;  
+}
+
+.circle4 {
+    background-color:black;
+    display: inline-block;
+    border-radius: 1.5em;
+    border: 0.2em solid rgb(236, 166, 180);
+    width: 40px;
+    height: 40px;
+    position:relative;
+    left: -15px;
+    top: -218px;
+    color: rgb(236, 166, 180);
+    font-size: 20px;
+    text-align: center;  
+}
+
