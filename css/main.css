@@ -16,13 +16,13 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: calc(50% - 500px);
-    /* border: 2px solid red; */
     margin-top: 70px;
-    /* background-color: grey; */
 }
+
 .column {
     width: 20%;
 }
+
 .section {
     width: 100%;
 }
@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .logo {
     width: 75%;
     aspect-ratio: 1 / 1;
