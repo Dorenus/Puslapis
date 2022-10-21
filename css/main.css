@@ -15,30 +15,52 @@ body {
     width: 1100px;
     display: flex;
     justify-content: space-between;
-    /* background-color: pink; */
     margin-left: calc(50% - 550px);
     border: 2px solid red;
-    background-color: grey;
+    margin-top: 70px;
+    /* background-color: grey; */
 }
 .column {
     width: 20%;
     border: 2px solid red;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .picture {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     border: 2px solid red;
+    height: 200px;
 }
 .logo {
-    width: 100%;
+    width: 75%;
+    aspect-ratio: 1 / 1;
+    
+}
+
+.color1 {
+    background-color: ;
+
+}
+.color2 {
+    background-color: ;
+    
+}
+.color3 {
+    
+}
+.color4 {
+    
 }
 
 .main-title {
-    font-size: 30px;
+    font-size: 25px;
     color: #e15e4e;
+    text-transform: uppercase;
+    text-align:center;
+    padding-top: 15px;
      
 }
 .main-description {
-
+    padding: 10px;
+    
 }
