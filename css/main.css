@@ -12,5 +12,33 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+    margin-left: calc(50% - 550px);
+    border: 2px solid red;
+    background-color: grey;
+}
+.column {
+    width: 20%;
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+.picture {
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.logo {
+    width: 100%;
+}
+
+.main-title {
+    font-size: 30px;
+    color: #e15e4e;
+     
+}
+.main-description {
+
 }
